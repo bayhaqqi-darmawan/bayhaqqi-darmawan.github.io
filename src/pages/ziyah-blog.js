@@ -14,12 +14,11 @@ const ZiyahPage = () => {
     file(relativePath: {eq: "friends1.jpg"}) {
       id
       childImageSharp {
-        fixed (
-          height: 250) {
-          ...GatsbyImageSharpFixed
+        fixed {
+          ...GatsbyImageSharpFixed_withWebp
         }
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -27,12 +26,11 @@ const ZiyahPage = () => {
     file(relativePath: {eq: "friends2.jpg"}) {
       id
       childImageSharp {
-        fixed (
-          height: 250) {
-          ...GatsbyImageSharpFixed
+        fixed {
+          ...GatsbyImageSharpFixed_withWebp
         }
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -40,12 +38,11 @@ const ZiyahPage = () => {
     file(relativePath: {eq: "sab1.jpg"}) {
       id
       childImageSharp {
-        fixed (
-          height: 250) {
-          ...GatsbyImageSharpFixed
+        fixed {
+          ...GatsbyImageSharpFixed_withWebp
         }
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -53,12 +50,11 @@ const ZiyahPage = () => {
     file(relativePath: {eq: "sab2.jpg"}) {
       id
       childImageSharp {
-        fixed (
-          height: 250) {
-          ...GatsbyImageSharpFixed
+        fixed {
+          ...GatsbyImageSharpFixed_withWebp
         }
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -66,12 +62,11 @@ const ZiyahPage = () => {
     file(relativePath: {eq: "revenge1.jpg"}) {
       id
       childImageSharp {
-        fixed (
-          height: 250) {
-          ...GatsbyImageSharpFixed
+        fixed {
+          ...GatsbyImageSharpFixed_withWebp
         }
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -79,12 +74,11 @@ const ZiyahPage = () => {
     file(relativePath: {eq: "revenge2.jpg"}) {
       id
       childImageSharp {
-        fixed (
-          height: 250) {
-          ...GatsbyImageSharpFixed
+        fixed {
+          ...GatsbyImageSharpFixed_withWebp
         }
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -92,12 +86,11 @@ const ZiyahPage = () => {
     file(relativePath: {eq: "dev1.jpg"}) {
       id
       childImageSharp {
-        fixed (
-          height: 250) {
-          ...GatsbyImageSharpFixed
+        fixed {
+          ...GatsbyImageSharpFixed_withWebp
         }
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -105,12 +98,11 @@ const ZiyahPage = () => {
     file(relativePath: {eq: "dev2.jpg"}) {
       id
       childImageSharp {
-        fixed (
-          height: 250) {
-          ...GatsbyImageSharpFixed
+        fixed {
+          ...GatsbyImageSharpFixed_withWebp
         }
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }

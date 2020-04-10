@@ -14,13 +14,11 @@ const data = useStaticQuery(graphql`
     file(relativePath: {eq: "1.jpg"}) {
       id
       childImageSharp {
-        fixed (
-          width: 400,
-          height: 300) {
-          ...GatsbyImageSharpFixed
+        fixed  {
+          ...GatsbyImageSharpFixed_withWebp
         }
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -28,12 +26,11 @@ const data = useStaticQuery(graphql`
     file(relativePath: {eq: "2.jpeg"}) {
       id
       childImageSharp {
-        fixed (
-          height: 250) {
-          ...GatsbyImageSharpFixed
+        fixed {
+          ...GatsbyImageSharpFixed_withWebp
         }
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -41,13 +38,11 @@ const data = useStaticQuery(graphql`
     file(relativePath: {eq: "3.jpg"}) {
       id
       childImageSharp {
-        fixed (
-          width: 400,
-          height: 300) {
-          ...GatsbyImageSharpFixed
+        fixed  {
+          ...GatsbyImageSharpFixed_withWebp
         }
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -55,13 +50,11 @@ const data = useStaticQuery(graphql`
     file(relativePath: {eq: "4.jpg"}) {
       id
       childImageSharp {
-        fixed (
-          width: 400,
-          height: 300) {
-          ...GatsbyImageSharpFixed
+        fixed  {
+          ...GatsbyImageSharpFixed_withWebp
         }
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -69,13 +62,11 @@ const data = useStaticQuery(graphql`
     file(relativePath: {eq: "5.jpg"}) {
       id
       childImageSharp {
-        fixed (
-          width: 400,
-          height: 300) {
-          ...GatsbyImageSharpFixed
+        fixed  {
+          ...GatsbyImageSharpFixed_withWebp
         }
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -83,13 +74,11 @@ const data = useStaticQuery(graphql`
     file(relativePath: {eq: "6.jpg"}) {
       id
       childImageSharp {
-        fixed (
-          width: 400,
-          height: 300) {
-          ...GatsbyImageSharpFixed
+        fixed  {
+          ...GatsbyImageSharpFixed_withWebp
         }
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -97,13 +86,11 @@ const data = useStaticQuery(graphql`
     file(relativePath: {eq: "7.jpg"}) {
       id
       childImageSharp {
-        fixed (
-          width: 400,
-          height: 300) {
-          ...GatsbyImageSharpFixed
+        fixed  {
+          ...GatsbyImageSharpFixed_withWebp
         }
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -111,13 +98,11 @@ const data = useStaticQuery(graphql`
     file(relativePath: {eq: "8.jpg"}) {
       id
       childImageSharp {
-        fixed (
-          width: 400,
-          height: 300) {
-          ...GatsbyImageSharpFixed
+        fixed  {
+          ...GatsbyImageSharpFixed_withWebp
         }
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -125,13 +110,11 @@ const data = useStaticQuery(graphql`
     file(relativePath: {eq: "9.jpg"}) {
       id
       childImageSharp {
-        fixed (
-          width: 400,
-          height: 300) {
-          ...GatsbyImageSharpFixed
+        fixed  {
+          ...GatsbyImageSharpFixed_withWebp
         }
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -139,13 +122,11 @@ const data = useStaticQuery(graphql`
     file(relativePath: {eq: "10.jpg"}) {
       id
       childImageSharp {
-        fixed (
-          width: 400,
-          height: 300) {
-          ...GatsbyImageSharpFixed
+        fixed  {
+          ...GatsbyImageSharpFixed_withWebp
         }
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
