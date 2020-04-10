@@ -1,0 +1,59 @@
+.container#content {
+  margin-top: 60px;
+}
+body {
+  background-color: $light-gray;
+}
+a {
+  color: black;
+  &:hover {
+    color: lightcoral;
+    text-decoration: none;
+  }
+}
+body {
+  font-family: $site-font;
+}
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.navbar {
+  background-color: #fc9;
+  // border-right: 1px solid rgba(0, 0, 0, 0.4);
+  // border-left: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  line-height: 1;
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
+  color: black;
+  &:hover {
+    color: lightcoral;
+  }
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.jumbo{
+  background-image: url(../images/peach.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  font-weight: bold;
+}
+
+.themed-container{
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fc9;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.card-one{
+  background-image: url(../images/girls.jpg);
+}
