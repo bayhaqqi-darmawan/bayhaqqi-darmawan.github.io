@@ -1,10 +1,10 @@
 import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
 
-const JumboZee = (props) => {
+const JumboHaki = (props) => {
   return (
     <div>
-      <Jumbotron fluid className="jumbo-zee">
+      <Jumbotron fluid className="jumbo-haki">
         <Container fluid>
         </Container>
       </Jumbotron>
@@ -12,4 +12,4 @@ const JumboZee = (props) => {
   );
 };
 
-export default JumboZee;
+export default JumboHaki;
