@@ -8,6 +8,10 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
   NavLink,
   NavbarText
 } from 'reactstrap';
@@ -20,15 +24,24 @@ const Header = ({ siteTitle }) => {
   return (
     <div>
       <Navbar color="#fc9" light expand="md">
-        <NavbarBrand href="/">Home</NavbarBrand>
+        <NavbarBrand href="/"><img src="../images/icon.png"></img>Home</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
           <NavItem>
-              <NavLink href="/ziyah-blog/">Aziyah's Blog</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/haqqi-blog/">Bay Haqqi's Blog</NavLink>
+          <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
+                Personal Blog
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem href="/ziyah-blog/">
+                Aziyah's Blog
+                </DropdownItem>
+                <DropdownItem href="/haqqi-blog/">
+                Bay Haqqi's Blog
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
             </NavItem>
             <NavItem>
               <NavLink href="/page-2/">About</NavLink>
