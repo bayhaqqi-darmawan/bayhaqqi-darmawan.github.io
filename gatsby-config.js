@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `WADT Assignment 2`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `BayZee Blog`,
+    description: `A blog that will entertain you during your homestay in this moment of time. Here will be the lists of most favourite food and series that surely will keep you entertain. Be sure to sit back, relax and enjoy your day!`,
     author: `@gatsbyjs`,
   },
   plugins: [
