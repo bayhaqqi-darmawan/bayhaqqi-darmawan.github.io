@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => {
   return (
     <div>
       <Navbar color="#fc9" light expand="md">
-        <NavbarBrand href="/"><img src="../images/icon.png"></img>Home</NavbarBrand>
+        <NavbarBrand href="/">Home</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
