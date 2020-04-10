@@ -2,7 +2,7 @@
   margin-top: 60px;
 }
 body {
-  background-color: $light-gray;
+  background-color: white;
 }
 a {
   color: black;
@@ -54,10 +54,6 @@ ul {
   padding: 20px;
 }
 
-.card-one{
-  background-image: url(../images/girls.jpg);
-}
-
 .small-logo{
   margin-left: auto;
   margin-right: auto;
@@ -68,4 +64,24 @@ ul {
   width: 140px;
   z-index: 100;
   border-radius: 5px;
+}
+
+.jumbo-zee{
+  background-image: url(../images/emma-mat.jpg);
+  min-height: 350px;
+  max-height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  font-weight: bold;
+}
+
+.lead{
+  text-align: justify;
+}
+
+.title{
+  font-weight: bold;
+  font-size: large;
+  text-decoration: underline;
 }

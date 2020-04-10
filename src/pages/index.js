@@ -14,16 +14,13 @@ return (
 
     <Container className="themed-container" fluid={true}>Binge watch movies</Container>
     <br></br>
-    <Container className="themed-container" fluid={true}>Try new food
-    Trying new food is quite an exciting thing to do. It’s a shame to have so much abundance in the world and not even know about it. Exploring new food that you have not tried may expose you to new flavors you might enjoy! This allows you to have a wide range of food spectrum, giving you more options for meals.
+    <Container className="themed-container" fluid={true}>Trying new food is quite an exciting thing to do. It’s a shame to have so much abundance in the world and not even know about it. Exploring new food that you have not tried may expose you to new flavors you might enjoy! This allows you to have a wide range of food spectrum, giving you more options for meals.
     </Container>
     <br></br>
-    <Container className="themed-container" fluid={true}>Discover a new hobby
-    Having a new hobby is a great way to gain experience and can be a lot of fun. Hobbies aren’t just limited to one, you can have as many hobbies as you want. Having a new hobby makes you more interesting and helps to kill your boredom. You never know, maybe this new hobby could be something that you’re great at.
+    <Container className="themed-container" fluid={true}>Having a new hobby is a great way to gain experience and can be a lot of fun. Hobbies aren’t just limited to one, you can have as many hobbies as you want. Having a new hobby makes you more interesting and helps to kill your boredom. You never know, maybe this new hobby could be something that you’re great at.
     </Container>
     <br></br>
-    <Container className="themed-container" fluid={true}>Listen to a new genre of music
-    Listening to new kinds of music is proven to be good for the brain. And being exposed to new genres 
+    <Container className="themed-container" fluid={true}>Listening to new kinds of music is proven to be good for the brain. And being exposed to new genres 
     </Container>
     <br></br>
     <Container className="themed-container" fluid={true}>Read new books.

@@ -9,7 +9,7 @@ const HakiPage = () => {
 const data = useStaticQuery(graphql`
   query Images {
     image:
-    file(relativePath: {eq: "beetle.jpg"}) {
+    file(relativePath: {eq: "BZ.png"}) {
       id
       childImageSharp {
         fixed (
@@ -31,7 +31,7 @@ return (
     <SEO title="Haqqi's Blog" />
     <h1>Bay Haqqi's Blog</h1>
     <Img 
-      fluid = {data.image.childImageSharp.fluid}
+      fixed = {data.image.childImageSharp.fixed}
     />
 
   </Layout>
