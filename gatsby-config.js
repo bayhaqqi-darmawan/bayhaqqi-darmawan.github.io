@@ -9,6 +9,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-catch-links`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-minify`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
