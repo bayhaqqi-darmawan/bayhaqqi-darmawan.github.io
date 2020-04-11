@@ -18,6 +18,9 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-zopfli'
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `BayZee Blog`,
