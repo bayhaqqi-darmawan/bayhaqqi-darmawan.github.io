@@ -35,7 +35,7 @@ return (
       <Col>
       <Card body>
           <CardTitle>Aziyah's Blog</CardTitle>
-          <CardText>If you are ready to spend most of your days at home, infront of your TV and watch some series, jump over to Aziyah's Blog to find out the 5 most recommended ones by Aziyah! You will for sure get entertained by it!</CardText>
+          <CardText>If you are ready to spend most of your days at home, infront of your TV and watch some series, jump over to Aziyah's Blog to find out the 4 most recommended ones by Aziyah! You will for sure get entertained by it!</CardText>
           <Link to="/ziyah-blog"><Button>Watch and Chill!</Button></Link>
         </Card>
       </Col>
@@ -43,7 +43,7 @@ return (
       <Col>
       <Card body>
           <CardTitle>Bay Haqqi's Blog</CardTitle>
-          <CardText>Are you ready to venture around Brunei? No, not just wander around but to get the most delicious dish around Brunei recommended by Bay Haqqi. Here are the top 5 favurite dishes that is truly delicious like no other!</CardText>
+          <CardText>Are you ready to venture around Brunei? No, not just wander around but to get the most delicious dish around Brunei recommended by Bay Haqqi. Here are the top 5 favourite dishes that is truly delicious like no other!</CardText>
           <Link to="/haqqi-blog"><Button>Food For Life!</Button></Link>
           
         </Card>

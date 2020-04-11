@@ -23,7 +23,7 @@ const data = useStaticQuery(graphql`
       }
     }
     image2:
-    file(relativePath: {eq: "2-min.jpeg"}) {
+    file(relativePath: {eq: "2-min.jpg"}) {
       id
       childImageSharp {
         fixed {
@@ -132,8 +132,6 @@ const data = useStaticQuery(graphql`
     }
   }
 `)
-console.log(data);
-
 return (
   <Layout>
     <SEO title="Haqqi's Blog" />
@@ -165,12 +163,14 @@ return (
           <Col>
             <Img 
               fluid = {data.image.childImageSharp.fluid}
+              alt="Nasi Katok Kaka"
             />
           </Col>
 
           <Col>
           <Img 
               fluid = {data.image2.childImageSharp.fluid}
+              alt="Nasi Katok Kaka"
             />
           </Col>
         </Row>
@@ -197,12 +197,14 @@ return (
           <Col>
             <Img 
               fluid = {data.image3.childImageSharp.fluid}
+              alt="Buttermilk Chicken"
             />
           </Col>
 
           <Col>
           <Img 
               fluid = {data.image4.childImageSharp.fluid}
+              alt="Buttermilk Chicken"
             />
           </Col>
         </Row>
@@ -229,12 +231,14 @@ return (
           <Col>
             <Img 
               fluid = {data.image5.childImageSharp.fluid}
+              alt="Kolo Mee"
             />
           </Col>
 
           <Col>
           <Img 
               fluid = {data.image6.childImageSharp.fluid}
+              alt="Kolo Mee"
             />
           </Col>
         </Row>
@@ -261,12 +265,14 @@ return (
           <Col>
             <Img 
               fluid = {data.image7.childImageSharp.fluid}
+              alt="Ayam Bakar"
             />
           </Col>
 
           <Col>
           <Img 
               fluid = {data.image8.childImageSharp.fluid}
+              alt="Ayam Bakar"
             />
           </Col>
         </Row>
@@ -292,12 +298,14 @@ return (
           <Col>
             <Img 
               fluid = {data.image9.childImageSharp.fluid}
+              alt="Carbonara"
             />
           </Col>
 
           <Col>
           <Img 
               fluid = {data.image10.childImageSharp.fluid}
+              alt="Carbonara"
             />
           </Col>
         </Row>

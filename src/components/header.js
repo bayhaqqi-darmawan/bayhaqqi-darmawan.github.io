@@ -28,7 +28,6 @@ const Header = ({ siteTitle }) => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-          <NavItem>
           <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Personal Blog
@@ -42,7 +41,6 @@ const Header = ({ siteTitle }) => {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
-            </NavItem>
             <NavItem>
               <NavLink href="/about/">About</NavLink>
             </NavItem>
