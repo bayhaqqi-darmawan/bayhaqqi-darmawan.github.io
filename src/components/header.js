@@ -44,7 +44,7 @@ const Header = ({ siteTitle }) => {
             </UncontrolledDropdown>
             </NavItem>
             <NavItem>
-              <NavLink href="/page-2/">About</NavLink>
+              <NavLink href="/about/">About</NavLink>
             </NavItem>
           </Nav>
           <NavbarText>WADT</NavbarText>

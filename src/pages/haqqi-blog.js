@@ -11,7 +11,7 @@ const HakiPage = () => {
 const data = useStaticQuery(graphql`
   query ImagesOfFood {
     image:
-    file(relativePath: {eq: "1.jpg"}) {
+    file(relativePath: {eq: "1-min.jpg"}) {
       id
       childImageSharp {
         fixed  {
@@ -23,7 +23,7 @@ const data = useStaticQuery(graphql`
       }
     }
     image2:
-    file(relativePath: {eq: "2.jpeg"}) {
+    file(relativePath: {eq: "2-min.jpeg"}) {
       id
       childImageSharp {
         fixed {
@@ -35,7 +35,7 @@ const data = useStaticQuery(graphql`
       }
     }
     image3:
-    file(relativePath: {eq: "3.jpg"}) {
+    file(relativePath: {eq: "3-min.jpg"}) {
       id
       childImageSharp {
         fixed  {
@@ -47,7 +47,7 @@ const data = useStaticQuery(graphql`
       }
     }
     image4:
-    file(relativePath: {eq: "4.jpg"}) {
+    file(relativePath: {eq: "4-min.jpg"}) {
       id
       childImageSharp {
         fixed  {
@@ -59,7 +59,7 @@ const data = useStaticQuery(graphql`
       }
     }
     image5:
-    file(relativePath: {eq: "5.jpg"}) {
+    file(relativePath: {eq: "5-min.jpg"}) {
       id
       childImageSharp {
         fixed  {
@@ -71,7 +71,7 @@ const data = useStaticQuery(graphql`
       }
     }
     image6:
-    file(relativePath: {eq: "6.jpg"}) {
+    file(relativePath: {eq: "6-min.jpg"}) {
       id
       childImageSharp {
         fixed  {
@@ -83,7 +83,7 @@ const data = useStaticQuery(graphql`
       }
     }
     image7:
-    file(relativePath: {eq: "7.jpg"}) {
+    file(relativePath: {eq: "7-min.jpg"}) {
       id
       childImageSharp {
         fixed  {
@@ -95,7 +95,7 @@ const data = useStaticQuery(graphql`
       }
     }
     image8:
-    file(relativePath: {eq: "8.jpg"}) {
+    file(relativePath: {eq: "8-min.jpg"}) {
       id
       childImageSharp {
         fixed  {
@@ -107,7 +107,7 @@ const data = useStaticQuery(graphql`
       }
     }
     image9:
-    file(relativePath: {eq: "9.jpg"}) {
+    file(relativePath: {eq: "9-min.jpg"}) {
       id
       childImageSharp {
         fixed  {
@@ -119,7 +119,7 @@ const data = useStaticQuery(graphql`
       }
     }
     image10:
-    file(relativePath: {eq: "10.jpg"}) {
+    file(relativePath: {eq: "10-min.jpg"}) {
       id
       childImageSharp {
         fixed  {
